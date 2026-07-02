@@ -26,9 +26,17 @@ source .venv/bin/activate (#activate .venv)
 
 uv add *packagename*
 
+Examples: 
+
 uv add langchain
 
 uv add langchain-openai 
+
+uv add langchain-groq 
+
+uv add ipykernel
+
+uv add python-dotenv
 
 #### or if you have listed all the required packages in the requirements.txt, issue: 
 
