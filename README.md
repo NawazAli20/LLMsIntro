@@ -43,7 +43,10 @@ uv add python-dotenv
 uv add -r requirements.txt
 
 
-# Installations commands for a cloned repo
+# Installations for a cloned repo
+
+git clone https://github.com/NawazAli20/LLMsIntro
+
 if you have .toml and/or .lock file just issue
 
 uv sync 
