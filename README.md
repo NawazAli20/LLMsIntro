@@ -24,6 +24,8 @@ source .venv/bin/activate (#activate .venv)
 
 ### then install all the dependecies
 
+uv add <packagename>
+
 uv add langchain
 
 uv add langchain-openai 
